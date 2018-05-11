@@ -18,6 +18,11 @@ Public Class Form1
         tblDatosPersonas.Columns.Add("Nombre")
         tblDatosPersonas.Columns.Add("Apellido1")
         tblDatosPersonas.Columns.Add("Apellido2")
+        tblDatosPersonas.Columns.Add("Aprueba2")
+        tblDatosPersonas.Columns.Add("prueba2")
+        tblDatosPersonas.Columns.Add("Apellido2")
+
+
 
 
         fileReader = My.Computer.FileSystem.OpenTextFileReader("C:\Users\yeric\Downloads\UCR\10 Registros.txt")
@@ -47,6 +52,10 @@ Public Class Form1
 
         'End If
         'Next
+
+    End Sub
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
 End Class
